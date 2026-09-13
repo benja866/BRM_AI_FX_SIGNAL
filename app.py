@@ -7,7 +7,7 @@ from pathlib import Path
 import streamlit as st
 from openai import OpenAI
 
-st.set_page_config(page_title="AI Trading Signal Tool", page_icon="📈", layout="centered")
+st.set_page_config(page_title="BRM_AI_FX_SIGNAL", page_icon="📈", layout="WIDE")
 
 SYSTEM_PROMPT = """
 You are an AI technical-analysis assistant for forex chart screenshots.
